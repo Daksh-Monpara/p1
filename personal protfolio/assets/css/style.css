@@ -1,0 +1,501 @@
+:root{
+--bs-blue: #0d6efd;
+--bs-indigo: #6610f2;
+--bs-purple: #6f42c1;
+--bs-pink: #d63384;
+--bs-red: #dc3545;
+--bs-orange: #fd7e14;
+--bs-yellow: #ffc107;
+--bs-green: #198754;
+--bs-teal: #20c997;
+--bs-cyan: #0dcaf0;
+--bs-white: #fff;
+--bs-gray: #6c757d;
+--bs-gray-dark: #343a40;
+--bs-primary: #0d6efd;
+--bs-secondary: #6c757d;
+--bs-success: #198754;
+--bs-info: #0dcaf0;
+--bs-warning: #ffc107;
+--bs-danger: #dc3545;
+--bs-light: #f8f9fa;
+--bs-dark: #212529;
+--bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+--bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+--bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+body{
+    background-color: #212428;
+}
+
+
+/* header start  */
+.header li:first-child a{
+    color: #ff014f !important;
+}
+.header li a{
+    color: white;
+    margin: 15px;
+}
+.header li:hover a{
+    color: #ff014f;
+}
+.header button {
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    color: #ff014f;
+    box-shadow:  10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+/* header end */
+
+
+/* banner start */
+.banner{
+    padding: 0px;
+}
+.banner .banner-content h2{
+    color: #ff014f;
+}
+
+.banner .banner-content button:hover{
+    background: linear-gradient(to right bottom, #212428, #16181c);
+}
+.banner .banner-content h1 span{
+    color: #ff014f;
+}
+/* banner end */
+
+
+/* About Me start */
+.title h2{
+  color: #ff014f;
+}
+.title p{
+    color: white;
+}
+.about-content li{
+    color: white;
+}
+ul li{
+    list-style-type:none;
+}
+.about-content h3{
+    color: #ff014f;
+}
+/* About Me end */
+
+
+/* contect-us start */
+.contect-us .title{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    color: black;
+}
+
+.buss button{
+    width: 670px;
+    height: 50px;
+    box-shadow:  10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    color: #ff014f;
+    border: none;
+    border-radius: 3px;
+}
+/* contect-us end */
+
+
+
+.heading-section h2{
+    color: white;
+}
+.heading-borders p{
+    color: white;
+}
+.service-section {
+	width: 100%;
+	border: none;
+	background:#1c1e22 ;
+	box-shadow:4px 7px 7px 0px #033f47;
+	padding: 55px 40px;
+	text-align: center;
+	margin-bottom: 30px;
+	float: left;
+	transition: 400ms;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.service-section:hover{
+	filter: grayscale(0);
+	transform: scale(1.03);
+}
+.service-section img {
+	height: 50px;
+	width: 50px;
+	margin-bottom: 15px;
+	padding: 0px;
+}
+.service-section h6 {
+	font-size: 18px;
+	margin-bottom: 15px;
+	font-weight: 600;
+	color: black;
+}
+.service-section p {
+	line-height: 30px;
+	font-size: 15px;
+}
+.service-border {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+}
+.service-border span {
+	border: 1px solid red;
+	width: 11%;
+	margin-bottom: 20px;
+}
+@media screen and (max-width:768px) {
+	.service-section {
+		padding: 20px 20px;
+	}
+}
+@media screen and (max-width:500px) {
+	.service-section {
+		padding: 20px 20px;
+	}
+}
+
+
+
+
+/* my portfolio start */
+.card .card-body:hover p{
+	color: #ff014f !important;
+	transform: 0.2	s;
+}
+.card a:hover{
+	transform:transition();
+}
+/* my portfolio end */
+
+
+
+
+.skills-bar-container {
+    position: relative;
+    width: 40%;
+    min-width: 350px;
+    margin: 5% auto;
+    list-style: none;
+}
+
+.skills-bar-container li {
+    background: #666666;
+    position: relative;
+    width: 100%;
+    height: 3px;
+    margin-bottom: 35px;
+    margin-top: 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.progressblue{
+	background-color: #ff014f !important;
+}
+.skills-bar-container label {
+    color: black;
+    position: relative;
+    margin-left: 0px;
+    font-size: 21px;
+    font-weight: 700;
+    width: 100%;
+}
+.skills-bar-container span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #ff014f;
+}
+.skills-bar-container p{
+    font-size: 16px;
+    font-family: Jost;
+    padding-top: 20px;
+}
+
+.progressbar {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+#progress-htmlcss {
+    -webkit-animation-name: progress-htmlcss;
+    animation-name: progress-htmlcss;
+    -webkit-animation-delay: .7s;
+    animation-delay: .7s;
+}
+
+#progress-jsjq {
+    -webkit-animation-name: progress-jsjq;
+    animation-name: progress-jsjq;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+
+#progress-php {
+    -webkit-animation-name: progress-php;
+    animation-name: progress-php;
+    -webkit-animation-delay: 2.1s;
+    animation-delay: 2.1s;
+}
+
+#progress-java {
+    -webkit-animation-name: progress-java;
+    animation-name: progress-java;
+    -webkit-animation-delay: .7s;
+    animation-delay: .7s;
+}
+
+#progress-csharp {
+    -webkit-animation-name: progress-csharp;
+    animation-name: progress-csharp;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+
+#progress-sql {
+    -webkit-animation-name: progress-sql;
+    animation-name: progress-sql;
+    -webkit-animation-delay: 2.1s;
+    animation-delay: 2.1s;
+}
+
+.progressblue {
+    background-color:#29a587;
+}
+
+@-webkit-keyframes progress-htmlcss {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@-webkit-keyframes progress-jsjq {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@-webkit-keyframes progress-php {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 25%;
+    }
+}
+
+@-webkit-keyframes progress-java {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+@-webkit-keyframes progress-csharp {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@-webkit-keyframes progress-sql {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+@-moz-keyframes progress-htmlcss {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@-moz-keyframes progress-jsjq {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@-moz-keyframes progress-php {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 25%;
+    }
+}
+
+@-moz-keyframes progress-java {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+@-moz-keyframes progress-csharp {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@-moz-keyframes progress-sql {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes progress-htmlcss {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes progress-jsjq {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes progress-php {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 25%;
+    }
+}
+
+@keyframes progress-java {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes progress-csharp {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes progress-sql {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+
+
+
+
+.bg-color {
+	background-color: #212428;
+}
+.about-left img {
+	width: 90%;
+    margin-top: 30px;
+}
+
+.about-right h2 {
+	font-size: 35px;
+	color: black;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.about-right h6 {
+	color: #f90505;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+.about-right p {
+	line-height: 35px;
+	font-size: 16px;
+	margin-bottom: 50px;
+	letter-spacing: 0.2px;
+	word-spacing: 0.5px;
+}
+.about-right p span {
+	color: black;
+	font-weight: 600;
+	border-bottom: 3px solid red;
+}
+.about-right table tr td {
+	padding-left:0px;
+}
+@media screen and (max-width:768px) {
+	.about-right table tr td,
+	.about-right table tr th {
+		padding: 10px 0px;
+		font-size: 13px;
+	}
+}
+@media screen and (max-width:500px) {
+	.about-right table tr td,
+	.about-right table tr th {
+		padding: 10px;
+		font-size: 16px;
+	}
+}
